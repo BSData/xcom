@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="da4eb858-7a40-148b-1149-3f9d463772c6" revision="1" gameSystemId="ddaae34c-27e1-5dc9-9217-9c35b9167dfb" gameSystemRevision="3" battleScribeVersion="1.14b" name="Enemy Within" books="XCOM: Enemy Within Multiplayer" authorName="Fugue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="da4eb858-7a40-148b-1149-3f9d463772c6" revision="2" gameSystemId="ddaae34c-27e1-5dc9-9217-9c35b9167dfb" gameSystemRevision="3" battleScribeVersion="1.14b" name="Enemy Within" books="XCOM: Enemy Within Multiplayer" authorName="Fugue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="27f26b11-df2d-db66-8f59-8aed7ef47ff8" name="Chryssalid" points="3000.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -19,7 +19,7 @@
         <profile id="090e5e7e-45a6-bf24-810b-31634e29abad" profileTypeId="4d656c656520576561706f6e23232344415441232323" name="Chryssalid Claw" hidden="false">
           <characteristics>
             <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="7"/>
-            <characteristic characteristicId="437269746963616c204368616e636523232344415441232323" name="Critical Chance" value="20"/>
+            <characteristic characteristicId="437269746963616c204368616e636523232344415441232323" name="Critical Chance" value="20%"/>
             <characteristic characteristicId="52616e676523232344415441232323" name="Range" value="2"/>
             <characteristic characteristicId="4e6f74657323232344415441232323" name="Notes" value="Poisonous Claws"/>
           </characteristics>
@@ -101,7 +101,7 @@
         </link>
       </links>
     </entry>
-    <entry id="66288e78-c667-0868-b63b-c8afa9ae5499" name="Drone" points="700.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="66288e78-c667-0868-b63b-c8afa9ae5499" name="Drone" points="400.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -552,7 +552,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="5321b0f5-b62b-669c-73d2-c32389cc25d3" name="EXALT Sniper" points="2000.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5321b0f5-b62b-669c-73d2-c32389cc25d3" name="EXALT Sniper" points="1400.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -587,7 +587,7 @@
         </link>
       </links>
     </entry>
-    <entry id="b30cbd40-a13f-a930-bf57-217511552656" name="Floater" points="1300.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="b30cbd40-a13f-a930-bf57-217511552656" name="Floater" points="1000.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -622,7 +622,7 @@
         </link>
       </links>
     </entry>
-    <entry id="5e0e0589-2dfe-7f6b-aa59-8c06aeddb638" name="Heavy Floater" points="3750.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5e0e0589-2dfe-7f6b-aa59-8c06aeddb638" name="Heavy Floater" points="3000.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="336724de-ae54-a10b-a5b4-32dda29a9c53" name="Item" defaultEntryId="859939ed-9d8e-0a35-3248-b5bacf251603" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -714,7 +714,7 @@
         </link>
       </links>
     </entry>
-    <entry id="54dd0e6e-3c38-2561-6632-f43ce96b9496" name="Muton" points="2850.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="54dd0e6e-3c38-2561-6632-f43ce96b9496" name="Muton" points="2200.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="79c7e323-674f-f1e9-2b76-10fcf220d829" name="Item" defaultEntryId="678353ab-d61a-87e6-46ac-e34cd8429a70" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -805,7 +805,7 @@
         </link>
       </links>
     </entry>
-    <entry id="bf9c50d3-1839-5b44-1787-66e8e8c15209" name="Muton Elite" points="3800.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="bf9c50d3-1839-5b44-1787-66e8e8c15209" name="Muton Elite" points="2900.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="de72da6c-d12e-e6f9-feda-787b3738be06" name="Item" defaultEntryId="4ea9cc58-63ee-86c5-9f58-b9484ce16432" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -856,7 +856,7 @@
         </link>
       </links>
     </entry>
-    <entry id="2aa10d1a-fc4e-62c1-cb9e-f8197494fa65" name="Sectoid" points="600.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="2aa10d1a-fc4e-62c1-cb9e-f8197494fa65" name="Sectoid" points="500.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -888,7 +888,7 @@
         </link>
       </links>
     </entry>
-    <entry id="4af4301c-a5e4-3678-71ae-29611e643b8b" name="Sectoid Commander" points="3200.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="4af4301c-a5e4-3678-71ae-29611e643b8b" name="Sectoid Commander" points="2700.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
         <entryGroup id="c05b3bab-f1fa-b804-cbd0-df6f9b58a92a" name="Item" defaultEntryId="0fc2b262-f1b1-f399-4169-9d8965f4b72d" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1481,7 +1481,7 @@
         </entryGroup>
         <entryGroup id="6fe4e4d4-bbb9-2c1d-af76-6f38ba71a4f2" name="3. MEC Suit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="a705352e-97d1-79ee-af31-801309915fff" name="Torch" points="800.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="a705352e-97d1-79ee-af31-801309915fff" name="Torch" points="2000.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1493,7 +1493,7 @@
                 </link>
               </links>
             </entry>
-            <entry id="f2d34679-2231-c7ce-d34a-1e9f0f242e24" name="Bruiser" points="1000.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="f2d34679-2231-c7ce-d34a-1e9f0f242e24" name="Bruiser" points="1500.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1505,7 +1505,7 @@
                 </link>
               </links>
             </entry>
-            <entry id="9b514810-31f1-162c-d385-201a1dff6eec" name="Phoenix" points="3200.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="9b514810-31f1-162c-d385-201a1dff6eec" name="Phoenix" points="3500.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1520,7 +1520,7 @@
                 </link>
               </links>
             </entry>
-            <entry id="dd137739-5157-fae1-1c68-9ad8afc8e51b" name="Demolisher" points="1700.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="dd137739-5157-fae1-1c68-9ad8afc8e51b" name="Demolisher" points="2200.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1535,7 +1535,7 @@
                 </link>
               </links>
             </entry>
-            <entry id="f66d2816-84d5-d502-69b1-edee083523ad" name="Ifrit" points="3600.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="f66d2816-84d5-d502-69b1-edee083523ad" name="Ifrit" points="3800.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1553,7 +1553,7 @@
                 </link>
               </links>
             </entry>
-            <entry id="bf21b509-d322-4b78-0ea2-4043c404d56e" name="Typhoon" points="2100.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="bf21b509-d322-4b78-0ea2-4043c404d56e" name="Typhoon" points="2600.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1928,7 +1928,7 @@
                 </link>
               </links>
             </entry>
-            <entry id="230713db-7290-0d24-2898-645183d62ff0" name="Imperator" points="2000.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="230713db-7290-0d24-2898-645183d62ff0" name="Imperator" points="1700.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -1968,7 +1968,7 @@
                 </link>
               </links>
             </entry>
-            <entry id="a1ce1141-9d87-d9c6-d5ee-cb77fc1a78ae" name="Psi Guardian" points="2500.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="a1ce1141-9d87-d9c6-d5ee-cb77fc1a78ae" name="Psi Guardian" points="2200.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
               <modifiers/>
@@ -2041,7 +2041,7 @@
         </link>
       </links>
     </entry>
-    <entry id="5175ab58-61de-4f31-a9ed-220085e2727f" name="Thin Man" points="1400.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="5175ab58-61de-4f31-a9ed-220085e2727f" name="Thin Man" points="1100.0" categoryId="556e69747323232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -2703,7 +2703,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="39360f06-5249-0490-f66f-8ea68d81860b" name="Needle Grenade" points="500.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="39360f06-5249-0490-f66f-8ea68d81860b" name="Needle Grenade" points="300.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2735,7 +2735,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="8982325e-8049-d93a-27d6-97a434ae0440" name="Chitin Plating" points="300.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8982325e-8049-d93a-27d6-97a434ae0440" name="Chitin Plating" points="500.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2803,7 +2803,7 @@
           <profiles/>
           <links/>
         </entry>
-        <entry id="b4707754-09df-aaf6-daf7-974ddcca1d95" name="Lurker" points="400.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="b4707754-09df-aaf6-daf7-974ddcca1d95" name="Lurker" points="1200.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
